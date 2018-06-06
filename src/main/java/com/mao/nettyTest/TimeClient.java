@@ -9,6 +9,7 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 
+// 客户端
 public class TimeClient {
     public static void main(String[] args) throws Exception {
         String host = args[0];
